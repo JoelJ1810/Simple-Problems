@@ -1,0 +1,6 @@
+Write definitions for two functions. The first function sum() takes an argument, int array, and
+returns the sum of all the elements of the passed array. The 2 nd function sumArray() takes
+two argument, an int array and a character ('E' or 'O'). if the passed character is 'E', it
+returns the sum of even elements of the passed array and if the passed character is 'O', it
+returns the sum of odd elements. Implement the functions in main(). There must be at least
+three options in the menu, array sum, odd element sum and even element sum.
