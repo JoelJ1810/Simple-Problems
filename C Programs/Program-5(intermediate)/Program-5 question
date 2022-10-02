@@ -1,0 +1,14 @@
+A manager of an internet service provider company wants to analyze the system usage from
+the log records to find the utilization of the system. He wants to know for how long did each
+user use the system?
+When the user wants to use the system he must login to the system ( start time e.g. 12:30) and
+after finishing the work he must log out off the system ( end time eg. 18:10).
+The time format is the 24-hour system hours and minutes.
+You may also assume that the data is valid and a user will login for less than 24 hours. If
+end time is less than the start time it means that the user logged in over the night.
+Write a menu driven program in C language using functions to do the following tasks.
+1. Read Login time(hour and minutes format)
+2. Read Log out time(hour and minutes format)
+3. To convert the time in hh and mm format to minutes and return minutes
+4. To convert the minutes into hh and mm format
+5. To display the difference between end time and start time in hh and mm format
