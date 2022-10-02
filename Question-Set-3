@@ -1,0 +1,22 @@
+1. Write a python program to read a list of numbers.
+• Find the mean and median and print.
+• Remove all duplicates present in the list.
+• Remove the numbers that occur more than 3 times
+2. Write a python program to find the reverse pair of words in the given word list.
+(Example: bat and tab, raw and war etc)
+3. Get a text from the user. Add “ed” at the of the string. Length of the string must be atleast 5.
+If the string already has “ed” at the end, then add ing. If the length of the string is less than
+6, print the string unchanged with a message.
+4. Get a string from the user. Encrypt the string and print both the strings. Use the following
+rules to encrypt the string
+• Add a number to each alphabet in the given string to generate its corresponding
+letter
+• Number should be taken from the user
+Example: PYTHON, Number=2 and encrypted string = RAVJQP
+
+5. Assign a random sequence of strings to a list “Guess”. Strings must be “True” “False” and do
+the following
+1. Assign number of occurrences of “True” in a list
+2. Assign number of occurrences of “False” in a list
+3. Assign the percentage of strings that represents “True” in a list.
+4. Sort and list all the answers
