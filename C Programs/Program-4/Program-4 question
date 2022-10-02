@@ -1,0 +1,5 @@
+5. Implement a menu driven program in C language to do the following tasks1) Read the student data [ use different data types]
+2) Check having license
+3) Check having aadhar card
+4) Check student’s gender
+5) Display a formatted marks card with necessary information
