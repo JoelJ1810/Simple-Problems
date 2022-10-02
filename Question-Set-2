@@ -1,0 +1,28 @@
+1. Write a Python program to check whether a string is numeric.
+2. Ask the user to enter a string s and a number i, print s for i times, each in a line.
+3. Write a Python program to reverse the digits of a given number and add it to the
+original, If the sum is not a palindrome repeat this procedure.
+4. Write a Python program to create all possible strings by using &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, &#39;u&#39;. Use the
+characters exactly once.
+5. Get a string which contains numbers and characters, print the sum and average of the
+numbers present in the string.
+6. When a character is consecutive in a string, it is possible to shorten the character
+string by replacing the character with a special character. For example, in the case of
+the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one
+character. Write a Python program to restore the original string by entering the
+compressed string with this rule. However, the # character does not appear in the
+restored character string
+Example:
+The restored character string for each character on one line.
+Original text: TJ#5Y2#6431
+Restored Text: TJYYYYY244444431
+7. Replace each special character with # in the following string
+($%% I am @Christ in Bangalore!! **$$
+Hint: use string.punctuation
+8. Get three strings from user. Form a new string using first character of first string,
+second character of second string etc. Repeat the same from the reverse order. (Eg:
+last character of the first string, last character of second string etc.)
+
+9. Write a Python program to read a long text which contains only alphabets and space;
+and should print two words. The first one is the word which appears most frequently
+in the text. The second one is the word which has the maximum number of letters
