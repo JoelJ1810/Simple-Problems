@@ -1,0 +1,20 @@
+Perform the following operations
+1) Print the area of a circle with a radius of 5.5
+2) Print the value of sin2.5
+3) Print the value of 4!
+4) Get the size of a land in Acres and display the value into its equivalent Meters
+5) Get an integer from the user, and then display the number of digits in the integer to
+the power of 3.
+6) Get two integers from the user, and then displays whether the second integer is a
+divisor of the first integer
+7) Keep asking the user to enter an integer until the user enters ‘0’, after which the
+maximum of all the numbers is shown
+8) Ask the user for the radius of a circle and the diameter of a square, and print whether
+the area of the circle is larger than that of the square.
+9) Display numbers from -25 to -10 using for loop
+10) Write a program that prints the following sequence of numbers:
+11) 1/0!, 1/1!, 1/2!, . . ., 1/i !, where i is user input.
+12) The annual interest rate of a savings account is 4.1%. John has $10,000 in his account,
+and aims at saving $50,000 within 5 years by depositing a fixed amount of money to
+his account in the beginning of each year, including this year. How much money does
+John need to save each year in order to achieve his goal?
