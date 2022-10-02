@@ -1,0 +1,124 @@
+"""1. Write a Python program to check whether a string is numeric."""
+
+import string 
+a=input("Enter a string")
+if str.isnumeric(a)==True:
+  print("String is numeric")
+else:
+  print("String is not numeric")
+
+"""2. Ask the user to enter a string s and a number i, print s for i times, each in a line."""
+
+s=input("Enter a string")
+i=int(input("Enter a number"))
+for x in range(0,i):
+  print(s)
+
+"""3. Write a Python program to reverse the digits of a given number and add it to the
+original, If the sum is not a palindrome repeat this procedure.
+"""
+
+n=int(input("Enter a number"))
+rev=0
+sum=0
+while n != 0:
+    digit = n % 10
+    rev= rev* 10+digit
+    n//=10
+    sum = sum + digit
+print("Sum of digits is :",sum)
+print("Reversed Number: " + str(rev))
+
+"""**4. Write a Python program to create all possible strings by using &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, &#39;u&#39;. Use the
+characters exactly once.**
+"""
+
+import random
+chare= ['a','e','i','o','u']
+for i in list(chare):
+  random.shuffle(chare)
+  print("the possible strings are:",''.join(chare))
+
+"""5. Get a string which contains numbers and characters, print the sum and average of the
+numbers present in the string.
+"""
+
+str=input("Enter the String: ")
+sum=0
+count=0
+for x in str:
+  if(x.isnumeric()==True):
+    sum+=int(x)
+    count+=1
+avg=sum/count
+print("Sum: ",sum,"\nAverage: ",avg)
+
+"""6. When a character is consecutive in a string, it is possible to shorten the character
+string by replacing the character with a special character. For example, in the case of
+the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one
+character. Write a Python program to restore the original string by entering the
+compressed string with this rule. However, the # character does not appear in the
+restored character string
+Example:
+The restored character string for each character on one line.
+Original text: TJ#5Y2#6431
+Restored Text: TJYYYYY244444431
+"""
+
+str=input("Enter a String: ")
+str2=""
+i=0
+while i < len(str):
+  if(str[i]=='#'):
+    x=i+1
+    y=int(str[x])
+    while(y!=0):
+      str2+=str[i+2]
+      y=y-1
+    i=i+3
+  else:
+    str2+=str[i]
+    i=i+1
+print(str2)
+
+"""7. Replace each special character with # in the following string
+($%% I am @Christ in Bangalore!! **$$
+Hint: use string.punctuation
+"""
+
+word = "$%% I am @Christ in Bangalore!!"
+
+for i in word:
+  if i in string.punctuation:
+    print("#",end='')
+  else:
+    print(i,end='')
+
+"""8. Get three strings from user. Form a new string using first character of first string,
+second character of second string etc. Repeat the same from the reverse order. (Eg:
+last character of the first string, last character of second string etc.)
+"""
+
+a=input("Enter string 1")
+b=input("Enter string 2")
+c=input("Enter string 3")
+d=''
+d+=a[0]+b[1]+c[2]+a[-1]+b[-2]+c[-3]
+print(d)
+
+"""9. Write a Python program to read a long text which contains only alphabets and space;
+and should print two words. The first one is the word which appears most frequently
+in the text. The second one is the word which has the maximum number of letters
+"""
+
+import collections as x
+print("Input a text in a line.")
+text_list = list(map(str, input().split()))
+sc = x.Counter(text_list)
+common_word = sc.most_common()[0][0]
+max_char = ""
+for s in text_list:
+    if len(max_char) < len(s):
+        max_char = s
+print("\nMost frequent text and the word which has the maximum number of letters.")
+print(common_word, max_char)
