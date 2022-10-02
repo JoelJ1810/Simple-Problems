@@ -1,0 +1,5 @@
+1. Write a C program to find the sum of digits of a given integer until the sum yields a single digit and check whether the resulting single digit is an even or an odd number.
+(for example: 45+19+89+13= 166, 1+6+6=13, 1+3=4).
+
+2. Write a program to accept a number and print the sum of the given and Reverse number
+(for example, the input is 123, the reverse is 321 and the sum is 6).
