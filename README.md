@@ -1,6 +1,6 @@
 # Simple-Problems
 
-Some python programs to understand the topics
+Some python and C programs to understand the topics
 
 • On how to find mean and median  
 
